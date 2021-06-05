@@ -37,5 +37,32 @@ public class DBProperties {
         Base64.Decoder decoder = Base64.getDecoder();
         return new String(decoder.decode(pass));
     }
+    public String getDriverClass() {
+        return driverClass;
+    }
+
+    public String getUrl() {
+        return url;
+    }
+
+    public String getUsername() {
+        return username;
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public String getHbm2ddl() {
+        return hbm2ddl;
+    }
+
+    public String getShowSql() {
+        return showSql;
+    }
+
+    public String getFormatSql() {
+        return formatSql;
+    }
 
 }
