@@ -1,4 +1,4 @@
-package ir.maktab.configuration;
+package ir.maktab.configuration.properties;
 
 import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Component;
